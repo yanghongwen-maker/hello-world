@@ -1,0 +1,127 @@
+		/*========top的css样式设计代码=========*/
+			*{
+				margin:0px;
+				padding:0px;
+			}
+			body{
+				background-color:#F1F2F6;
+			}
+			a{
+				text-decoration:none;
+			}
+
+			.banner{
+				height:40px;
+				width: 100%;
+				background-color: #48525e;
+			}
+			.nav{
+				width:980px;
+				margin:0 auto;
+				line-height: 40px;
+			}
+			.nav .left{
+				font-size: 30px;
+				color: #ddd;
+				float: left;
+			}
+			.nav .right{
+				float: right;
+			}
+			.nav .a{
+				color: #ddd;
+				text-decoration: none;
+				font-size: 18px;
+				font-weight: normal;
+			}
+			.bgimg{
+				height:230px;
+				width: 100%;
+				background-image:url(../images/head2.jpg);
+				background-repeat:no-repeat;
+				background-size:cover;
+			}
+		/*====================================*/
+		
+		/*==========大盒子的css样式===========*/
+			#big{
+				width:980px;
+				margin:0 auto;
+				margin-top: -50px;
+			}
+			.btfont{
+				width:960px;
+				height:50px;
+				float:left;
+				line-height:50px;
+				border-radius:5px;
+				background-color:white;
+				color:#636969;
+				font-size:15px;
+				padding-left:20px;
+				border-bottom:1px solid #ccc;
+			}
+			.biaodan{
+				width:800px;
+				height:400px;
+				float:left;
+				background-color:white;
+				border-radius:5px;
+				border-right:1px solid #ccc;
+				/*border:1px solid red;*/
+			}
+			.biaodan .tishi{
+				margin:15px;
+				/*border:1px solid red;*/
+			}
+			.biaodan .tishi p{
+				padding:5px;
+				font-size:13px;
+				background-color:#fffae2;
+			}
+			.biaodan table{
+				margin-left:180px;
+			}
+			.biaodan table tr td.you{
+				text-align:right;
+				font-size:15px;
+				/*border:1px solid #ccc;*/
+			}
+			.biaodan table tr td.you span{
+				color:red;
+			}
+			.biaodan table tr td.zuo input{
+				text-align:left;
+				width:250px;
+				height:30px;
+			}
+			.biaodan table tr td.btn input{
+				width:50px;
+				height:30px;
+			}
+			.butdl{
+				width:178px;
+				height:400px;
+				float:left;
+				border-radius:5px;
+				background-color:white;
+			}
+			.butdl h3{
+				color:red;
+				margin:10px;
+				font-size:15px;
+			}
+			.butdl button{
+				margin-top: 20px;
+				margin-left:10px;
+				width:70px;
+				height:30px;
+			}
+			
+		/*====================================*/
+		
+		/*===========clear的css样式===========*/
+			#clear{
+				clear:both;
+			}
+		/*====================================*/

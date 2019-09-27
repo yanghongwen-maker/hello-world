@@ -1,0 +1,373 @@
+		/*========top=========*/
+			*{
+				margin:0px;
+				padding:0px;
+			}
+			body{
+				background-color:#F1F2F6;
+			}
+			a{
+				text-decoration:none;
+			}
+
+		/*====================================*/
+
+		/*==========bodyer===========*/
+			#big{
+				width:980px;
+				margin:0 auto;
+			}
+
+			#list{
+				float:left;
+				height:45px;
+				background-color:white;
+				border-radius:5px;
+				margin-top:10px;
+				margin-bottom:10px;
+			}
+			#list #page{
+				float:left;
+				width:950px;
+				margin-top:8px;
+			}
+			#list #page #pagefy{
+				float:left;
+			}
+			#list #page #pagefy ul{
+				list-style:none;
+				margin-left:18px;
+			}
+			#list #page #pagefy ul li{
+				float:left;
+				margin-left:5px;
+				padding:4px 0px;
+				border:1px solid #636969;
+			}
+			#list #page #pagefy ul li a{
+				padding:5px 10px;
+				color:#636969;
+			}
+			#list #page #pagefy ul li a:hover{
+				color:white;
+				background-color:#636969;
+			}
+			#list #page #fatie{
+				float:right;
+				margin-right:20px;
+			}
+			#list #page #fatie button{
+				width:60px;
+				height:30px;
+				color:white;
+				background-color:#fc0;
+				border:1px solid #fc0;
+				border-left:2px solid white;
+				border-top:2px solid white;
+				border-radius:5px;
+				font-weight:bold;
+				cursor:pointer;
+			}
+			#bigdetail{
+				float:left;
+
+				/*border:1px solid red;*/
+			}
+			#detail{
+				width:980px;
+				height:100%;
+				float:left;
+				border-radius: 5px;
+				border-top:1px solid #ccc;
+				background-color:white;
+			}
+			#detail #lzinfo{
+				width:150px;
+				height:100%;
+				float:left;
+				margin-top: 10px;
+				border-right:1px solid #EDEDED;
+				background-color:#F7F7F7;
+			}
+			#detail #lzinfo #read{
+				width:74px;
+				height:40px;
+				line-height:12px;
+				float:left;
+				font-size:12px;
+				font-weight:bold;
+				border-bottom:1px solid #d9d9d9;
+				border-right:1px solid #d9d9d9;
+			}
+			#detail #lzinfo #reply{
+				width:74px;
+				height:40px;
+				line-height:12px;
+				font-size:12px;
+				float:left;
+				font-weight:bold;
+				border-bottom:1px solid #d9d9d9;
+			}
+			#detail #lzinfo #read p{
+				margin-top:5px;
+				text-align:center;
+			}
+			#detail #lzinfo #reply p{
+				margin-top:5px;
+				text-align:center;
+			}
+			#detail #lzinfo #lztoux{
+				width:130px;
+				/*height:459px;*/
+				float:left;
+				margin-left:10px;
+			}
+			#detail #lzinfo #lztoux #uname{
+				width:115px;
+				height:30px;
+				float:left;
+				font-size:15px;
+				padding-top:2px;
+				padding-left:15px;
+				line-height:30px;
+				margin-top:5px;
+				background:url("../public/home/img/guanli.png") no-repeat left center;
+			}
+			#detail #lzinfo #lztoux #uname a{
+				color:black;
+			}
+			#detail #lzinfo #lztoux #uname a:hover{
+				color:blue;
+			}
+			#detail #lzinfo #lztoux #utoux{
+				width:120px;
+				height:120px;
+				padding:5px;
+				float:left;
+				border:1px solid #efefef;
+			}
+			#detail #lzinfo #lztoux #ulevel{
+				width:130px;
+				height:35px;
+				float:left;
+			}
+			#detail #lzinfo #lztoux #ulevel a{
+				font-size:12px;
+				color:black;
+			}
+			#detail #lzinfo #lztoux #ulevel a:hover{
+				color:blue;
+			}
+			#detail #lzinfo #lztoux #uhuiz{
+				width:130px;
+				min-height:20px;
+				float:left;
+				padding:2px 0px;
+			}
+			#detail #lzinfo #lztoux #uguanz{
+				width:130px;
+				height:30px;
+				float:left;
+			}
+			#detail #lzinfo #lztoux #uguanz a{
+				color:black;
+				font-size:12px;
+				padding-left:18px;
+			}
+			#detail #lzinfo #lztoux #uguanz a:hover{
+				color:red;
+			}
+			#detail #lzinfo #lztoux #uguanz a.jia{
+				background:url("../public/home/img/guanz.png") no-repeat left center;
+			}
+			#detail #lzinfo #lztoux #uguanz a.fa{
+				background:url("../public/home/img/fax.png") no-repeat left center;
+			}
+			#detail #tzinfo{
+				width:799px;
+				margin-top: 10px;
+				/*height:500px;*/
+				float:left;
+			}
+			#detail #tzinfo #replyform{
+				width:750px;
+				padding:10px;
+			}
+			#detail #tzinfo form input{
+				margin-top:10px;
+				margin-left:10px;
+			}
+			#detail #tzinfo form textarea{
+				margin-left:10px;
+				width:600px;
+				height:110px;
+				resize:none;
+			}
+			#detail #tzinfo form input[type=submit]{
+				width:100px;
+				height:30px;
+				cursor:pointer;
+			}
+			#detail #tzinfo #tzbiaot{
+				width:799px;
+				height:40px;
+				float:left;
+				color:#075991;
+				line-height:40px;
+				background-color:#f7f7f7;
+				border-bottom:1px solid #d9d9d9;
+			}
+			#detail #tzinfo #tzbiaot p{
+				font-size:20px;
+				font-weight:bold;
+				margin-left:10px;
+			}
+			#detail #tzinfo #tzbiaot p span{
+				margin-left:5px;
+				font-size:13px;
+			}
+			#detail #tzinfo #tzbiaot p span a{
+				color:#636969;
+			}
+			#detail #tzinfo #tzbiaot p span a:hover{
+				color:blue;
+			}
+			#detail #tzinfo #tzxiangq{
+				width:780px;
+				/*min-height:440px;*/
+				float:left;
+				padding:10px;
+			}
+			#detail #tzinfo #tzxiangq #fttime{
+				width:780px;
+				height:30px;
+				float:left;
+				font-size:15px;
+				line-height:30px;
+				border-bottom:1px dashed #ccc; 
+			}
+			#detail #tzinfo #tzxiangq #fttime p{
+				float:left;
+			}
+			#detail #tzinfo #tzxiangq #fttime ul{
+				list-style:none;
+			}
+			#detail #tzinfo #tzxiangq #fttime ul li{
+				float:right;
+			}
+			#detail #tzinfo #tzxiangq #fttime ul li a{
+				color:#636969;
+				margin-left:5px;
+				font-size:15px;
+			}
+			#detail #tzinfo #tzxiangq #fttime ul li a:hover{
+				color:blue;
+			}
+			#detail #tzinfo #tzxiangq #tzneir{
+				width:780px;
+				min-height:200px;
+				float:left;
+				padding:10px 0px;
+			}
+			#detail #tzinfo #tzxiangq #tzneir p{
+				font-size:15px;
+			}
+			#detail #tzinfo #tzxiangq #tzfenx{
+				width:780px;
+				height:36px;
+				float:right;
+				margin-left:10px;
+				margin-top:10px;
+			}
+			#detail #tzinfo #tzxiangq #tzfenx a{
+				float:right;
+				margin-left:8px;
+			}
+			#detail #tzinfo #tzxiangq #tzyinc{
+				width:600px;
+				height:25px;
+				float:left;
+				margin-top:15px;
+				border:1px dashed #ECA46A;
+				background-color:#FFFAE1;
+			}
+			#detail #tzinfo #tzxiangq #tzyinc p{
+				padding:5px 0px 0px 25px;
+				font-size:15px;
+				color:#636969;
+			}
+			#detail #tzinfo #tzxiangq #tzyinc div{
+				width:15px;
+				height:20px;
+				float:left;
+				margin-top:4px;
+				margin-left:5px;
+				background:url("../public/home/img/light.png") no-repeat;
+			}
+			#detail #tzinfo #tzxiangq #tzpingf{
+				width:775px;
+				height:30px;
+				float:left;
+				line-height:30px;
+				margin-top:10px;
+				border:1px solid #ccc;
+				background:url("../public/home/img/bttiao.png") repeat-x;
+			}
+			#detail #tzinfo #tzxiangq #tzpingf p{
+				margin-left:8px;
+				font-size:14px;
+			}
+			#detail #tzinfo #tzxiangq #tzpingf span{
+				color:red;
+				font-weight:bold;
+				padding:0px 2px;
+			}
+			#detail #tzinfo #tzxiangq #tzpingfxx{
+				width:775px;
+				height:30px;
+				line-height:30px;
+				float:left;
+				border-bottom:1px dashed #ccc;
+			}
+			#detail #tzinfo #tzxiangq #tzpingfxx ul{
+				list-style:none;
+				margin-left:2px;
+				float:left;
+			}
+			#detail #tzinfo #tzxiangq #tzpingfxx ul li{
+				float:left;
+				margin-left:5px;
+			}
+			#detail #tzinfo #tzxiangq #tzpingfxx ul a{
+				font-size:15px;
+				color:#636969;
+			}
+			#detail #tzinfo #tzxiangq #tzpingfxx ul a:hover{
+				color:blue;
+			}
+			#detail #tzinfo #tzxiangq #tzpingfxx ul li a span{
+				border:1px solid red;
+				color:red;
+				margin-left:5px;
+				padding:0px 5px;
+			}
+			#detail #tzinfo #tzxiangq #tzpingfxx div{
+				float:right;
+				color:#aaa;
+			}
+			#detail #tzinfo #tzxiangq #tzhuif{
+				width:775px;
+				height:30px;
+				float:left;
+				margin-top:10px;
+				padding-top:10px;
+				line-height:30px;
+				border-top:2px solid #ccc;
+			}
+		/*====================================*/
+		
+		/*===========clear��css��ʽ===========*/
+			#clear{
+				clear:both;
+			}
+		/*====================================*/
